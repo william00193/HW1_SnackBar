@@ -8,23 +8,29 @@
     android:orientation="vertical"
     tools:context=".MainActivity">
 
-
+    <!--    Text view and displaying the question-->
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/question_text"
         />
 
+
+    <!--    Linear layout for both of my buttons-->
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content">
 
+
+        <!--        True button-->
         <Button
             android:id="@+id/true_button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/true_button"/>
 
+
+        <!--        False button-->
         <Button
             android:id="@+id/false_button"
             android:layout_width="wrap_content"
