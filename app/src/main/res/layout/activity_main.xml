@@ -11,8 +11,12 @@
     <!--    Text view and displaying the question-->
     <TextView
         android:layout_width="wrap_content"
+        android:id="@+id/question_textView"
         android:layout_height="wrap_content"
-        android:text="@string/question_text"
+        android:textSize="20sp"
+        android:padding="20dp"
+        android:gravity="center"
+        android:text="@string/question_australia"
         />
 
 
@@ -37,6 +41,14 @@
             android:layout_height="wrap_content"
             android:text="@string/false_button"/>
 
+
+
     </LinearLayout>
+
+    <Button
+        android:id="@+id/next_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/next_button" />
 
 </LinearLayout>
